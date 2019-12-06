@@ -205,7 +205,6 @@ body {
 #create h4 {
   font-size: 18px;
 }
-
 #create i {
   font-size: 10px;
   color: #006AFF;
@@ -219,6 +218,25 @@ body {
   font-weight: bold;
   color: #031b4e;
 }
+/* Feature */
+#feature img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#feature a {
+  font-weight: bold;
+  color: #006AFF;
+}
+#feature a:hover {
+  text-decoration: none;
+  color: #1853a7
+}
+#feature a span {
+  font-size: 10px;
+  padding: 3px;
+  vertical-align: middle;
+}
+
 /* service */
 #service {
   background-color: #0044C3;
