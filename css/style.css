@@ -9,10 +9,21 @@ body {
   font-size: 16px;
 }
 .font_h1 {
-  font-size: 58px;
+  font-size: 46px;
 }
 .font_h2 {
-  font-size: 42px;
+  font-size: 30px;
+}
+.font_h3 {
+  font-size: 22px;
+}
+.font_p_20 {
+  font-size: 20px;
+  opacity: 0.9;
+}
+.font_p_16 {
+  font-size: 16px;
+  opacity: 1;
 }
 .font_darkblue {
   color: #031b4e;
@@ -101,7 +112,7 @@ body {
 .header_banner .btn_account {
   background-color: #579AFF;
   color: #fff;
-  width: 540px;
+  width: 100%;
 }
 .header_banner .btn_google {
   position: relative;
@@ -110,7 +121,7 @@ body {
   font-weight: bold;
   box-shadow: 1px 1px;
   margin-top: 5px;
-  width: 540px;
+  width: 100%;
 }
 .google {
   position: absolute;
@@ -129,8 +140,6 @@ body {
   text-decoration: underline;
   color: #006AFF;
 }
-
-
 /* Main */
 /* Main_logo */
 #main_logo {
@@ -141,9 +150,11 @@ body {
   color: #707070;
   opacity: 0.5;
 }
-.logo img {
-  width: 10%;
-  margin: 0 25px;
+.logo li img {
+  width: 100%;
+}
+.logo li  {
+  width: 35%;
 }
 #main_logo h5 a {
   font-size: 16px;
@@ -155,10 +166,30 @@ body {
   text-decoration: none;
   color: #3973c1
 }
+
 /* Deploy */
 #deploy {
   background-color: white;
 }
+#deploy ul {
+  list-style: none;
+  border-left: 2px solid #707070;
+  margin-top: 40px;
+}
+#deploy ul li {
+  color: #707070;
+  line-height: 35px;
+  margin-left: 10px;
+}
+#deploy p {
+  color: #707070;
+}
+#deploy img {
+  text-align: left;
+  margin-top: 15px;
+}
+
+
 /* Create */
 #create {
   background-color: #F3F5F9;
@@ -170,6 +201,8 @@ body {
   font-size: 10px;
   color: #006AFF;
 }
+
+
 /* service */
 #service {
   background-color: #0044C3;
@@ -195,22 +228,19 @@ footer {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
-  .header_banner .btn_account {
-  width: 340px;
+  .logo li  {
+    width: 13%;
   }
-  .header_banner .btn_google {
-    width: 340px;
+  #deploy .wrapper {
+    width: 90%;
+    margin: 0 auto;
   }
-  .logo img {
-    width: 9%;
-  }
+
 }
 @media screen and (min-width: 992px) {
-  .header_banner .btn_account {
-    width: 430px;
-  }
-  .header_banner .btn_google {
-    width: 430px;
-  }
+#deploy .wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
 
 }

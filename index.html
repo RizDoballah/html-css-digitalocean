@@ -19,13 +19,13 @@
     <div class="header_top">
     <div class="container">
       <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-3">
+        <div class="col-xs-9 col-sm-9 col-md-3 col-lg-3">
           <a href="#"><img src="img/logo.png" alt="logo"></a>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-5 text-right">
+        <div class="col-xs-3 col-sm-3 col-md-5 col-lg-5 text-right">
           <nav>
-            <a href="#" class="humburger hidden-lg"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
-            <ul class="visible-md list-inline">
+            <a href="#" class="humburger hidden-md hidden-lg"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+            <ul class="visible-md visible-lg list-inline">
               <li><a href="#">Products<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
               <li><a href="#">Costumers</a></li>
               <li><a href="#">Community<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
@@ -33,9 +33,9 @@
             </ul>
           </nav>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 col-lg-4 text-right">
           <nav>
-            <ul class="visible-md list-inline">
+            <ul class="visible-md visible-lg list-inline">
               <li><a href="#">Docs</a></li>
               <li><a href="#">Support<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
               <li><a href="#">Login</a></li>
@@ -51,14 +51,18 @@
     <div class="header_banner">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-7 col-md-7 padding_top_40">
-            <h1 class="font_h1 font_white bold">Welcome to the developer cloud</h1>
-            <p class="font_white">We make it simple to lunch and scale up as you grow - with an intuitive control panel, predictable pricing, team accounts, and more.</p>
+          <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+            <h1 class="font_h1 font_white bold padding_top_60">The simplest cloud platform for developers & teams
+            </h1>
+            <p class="font_white">We make it simple to lunch and scale up as you grow - with an intuitive control panel, predictable pricing, team accounts, and more.
+            </p>
           </div>
-          <div class="col-xs-12 col-sm-5 col-md-5 padding_top_40">
+          <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 padding_top_40">
             <div class="form">
-              <h2 class="text-center font_darkblue bold padding_top_20">Deploy your app in seconds.</h2>
-              <h2 class="text-center font_blue bold">Get started now.</h2>
+              <h2 class="text-center font_darkblue bold padding_top_20">Deploy your app in seconds.
+              </h2>
+              <h2 class="text-center font_blue bold">Get started now.
+              </h2>
               <div class="form-group">
                 <label for="name" class="sr-only ">Name</label>
                 <input type="text" class="form-control bold height" id="name" placeholder="Name">
@@ -69,14 +73,13 @@
               </div>
               <a class="btn btn_account" href="#" role="button">Create your account</a>
               <br>
-              <a class="btn btn_google" href="#" role="button"><img class="google" src="img/google.png" alt="logo google"> <span>Sign up with google</span></a>
-              <p class="terms text-center font_darkblue bold ">By signing up you agree to the<a href="#"> Terms of Service.</a></p>
-
-
+              <a class="btn btn_google" href="#" role="button"><img class="google" src="img/google.png" alt="logo google"> <span>Sign up with google</span>
+              </a>
+              <p class="terms text-center font_darkblue bold ">By signing up you agree to the<a href="#"> Terms of Service.</a>
+              </p>
             </div>
           </div>
         </div>
-
       </div>
     </div>
     <!-- /Header -->
@@ -88,29 +91,55 @@
     <section id="main_logo">
       <h4 class="text-center padding_top_40 bold">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN
       </h4>
-      <div class="logo text-center">
-        <img src="img/docker-bab60eeb.png" alt="logo">
-        <img src="img/gitlab-166e2067.png" alt="logo">
-        <img src="img/slack-e20293da.png" alt="logo">
-        <img src="img/hashicorp-4431df79.png" alt="logo">
-        <img src="img/wework-be6eab32.png" alt="logo">
-        <img src="img/splunk-06b17d75.png" alt="logo">
-      </div>
-      <h5 class="text-center padding_bottom_40"><a href="#" class="font_blue bold">View customer stories <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></h5>
+      <ul class="logo list-inline text-center">
+        <li><img src="img/docker-bab60eeb.png" alt="logo"></li>
+        <li><img src="img/gitlab-166e2067.png" alt="logo"></li>
+        <li><img src="img/slack-e20293da.png" alt="logo"></li>
+        <li><img src="img/hashicorp-4431df79.png" alt="logo"></li>
+        <li>  <img src="img/wework-be6eab32.png" alt="logo"></li>
+        <li><img src="img/splunk-06b17d75.png" alt="logo"></li>
+      </ul>
+      <h5 class="text-center padding_bottom_40"><a href="#" class="font_blue bold">View customer stories <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+      </h5>
     </section>
   <!-- /Main_logo -->
   <!-- Deploy -->
-    <section id="deploy" class="text-center">
-      <h2 class="padding_top_60 font_h2" padding_top_80>Deploy and scale seamlessly</h2>
-      <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+    <section id="deploy" class="padding_bottom_40">
+    <div class="wrapper">
+      <h2 class="padding_top_60 font_h2 font_darkblue bold text-center">Deploy and scale seamlessly</h2>
+      <p class="font_darkblue font_p_20 text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+    </div>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-2 col-md-2">lorem
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <ul class="text-left font_p_20">
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>Secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
+            </ul>
           </div>
-          <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-lg-offset-2 col-md-4 ">lorem</div>
-          <div class="col-xs-12 col-sm-4 col-md-4">lorem</div>
-          <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4">lorem</div>
-          <div class="col-xs-12 col-sm-4 col-md-4">lorem</div>
+          <div class="col-xs-12 col-sm-offset-1 col-sm-4 col-lg-offset-1 col-md-4 col-lg-4 ">
+            <img src="img/cluster-deploy.svg" alt="icona">
+            <h3 class="font_h3 font_darkblue text-left bold">Cluster deployments</h3>
+            <p class="font_p_16 text-left">Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <img src="img/optimized-compute.svg" alt="icona">
+            <h3 class="font_h3 font_darkblue text-left bold">Flexible compute types</h3>
+            <p class="font_p_16 text-left">With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+          </div>
+          <div class="col-xs-12 col-sm-offset-3 col-sm-4 col-lg-offset-1 col-md-4 col-lg-4 ">
+            <img src="img/one-click.svg" alt="icona">
+            <h3 class="font_h3 font_darkblue text-left bold">1-Click App Marketplace</h3>
+            <p class="font_p_16 text-left">Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <img src="img/global.svg" alt="icona">
+            <h3 class="font_h3 font_darkblue text-left bold">Global availability</h3>
+            <p class="font_p_16 text-left">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+          </div>
         </div>
       </div>
     </section>
