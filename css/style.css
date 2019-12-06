@@ -67,3 +67,22 @@ body {
   font-size: 10px;
   color: #006AFF;
 }
+/* service */
+#service {
+  background-color: #0044C3;
+}
+/* development */
+#development {
+  background-color: #F3F5F9;
+}
+#development img {
+  width: 50%;
+}
+.ball i {
+  font-size: 10px;
+  color: #006AFF;
+}
+/* Get_started */
+#get_started {
+  background-color: #0044C3;
+}
