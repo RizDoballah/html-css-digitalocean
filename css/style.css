@@ -7,3 +7,63 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.padding_top_40 {
+  padding-top: 40px;
+}
+.padding_bottom_40 {
+  padding-bottom: 40px;
+}
+.padding_top_60 {
+  padding-top: 60px;
+}
+.padding_bottom_60 {
+  padding-bottom: 60px;
+}
+/* Header_top */
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: white;
+}
+/* Header_banner */
+.header_banner {
+  width: 100%;
+  margin-top: 80px;
+  background-color: blue;
+}
+.form {
+  width: 60%;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Main */
+/* Main_logo */
+#main_logo {
+  background-color: #F3F5F9;
+}
+.logo img {
+  width: 10%;
+  margin: 0 25px;
+}
+/* Deploy */
+#deploy {
+  background-color: white;
+}
+/* Create */
+#create {
+  background-color: #F3F5F9;
+}
+#create img {
+  width: 50%;
+}
+#create i {
+  font-size: 10px;
+  color: #006AFF;
+}
