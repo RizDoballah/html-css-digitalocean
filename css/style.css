@@ -17,13 +17,13 @@ body {
 .font_h3 {
   font-size: 22px;
 }
-.font_p_20 {
-  font-size: 20px;
-  opacity: 0.9;
+.font_p_22 {
+  font-size: 22px;
+  opacity: 0.8;
 }
 .font_p_16 {
   font-size: 16px;
-  opacity: 1;
+  opacity: 0.8;
 }
 .font_darkblue {
   color: #031b4e;
@@ -173,36 +173,52 @@ body {
 }
 #deploy ul {
   list-style: none;
-  border-left: 2px solid #707070;
+  border-left: 2px solid #CCCCCC;
   margin-top: 40px;
 }
 #deploy ul li {
-  color: #707070;
+  color: #031b4e;
+  opacity: 0.7;
   line-height: 35px;
   margin-left: 10px;
 }
-#deploy p {
-  color: #707070;
-}
+
 #deploy img {
   text-align: left;
   margin-top: 15px;
 }
-
-
 /* Create */
 #create {
   background-color: #F3F5F9;
 }
+#create .wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+#create p {
+  padding-bottom: 100px;
+}
 #create img {
   width: 50%;
+  padding-bottom: 20px;
 }
+#create h4 {
+  font-size: 18px;
+}
+
 #create i {
   font-size: 10px;
   color: #006AFF;
 }
-
-
+#create i:first-child {
+  background-color: #006AFF;
+  border-radius: 50%;
+}
+#create span {
+  font-size: 40px;
+  font-weight: bold;
+  color: #031b4e;
+}
 /* service */
 #service {
   background-color: #0044C3;
@@ -235,6 +251,10 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
+  #create .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
 
 }
 @media screen and (min-width: 992px) {
@@ -242,5 +262,10 @@ footer {
   width: 85%;
   margin: 0 auto;
 }
+#create .wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
 
 }
