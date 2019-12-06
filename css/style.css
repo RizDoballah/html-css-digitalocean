@@ -6,6 +6,13 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.font_h1 {
+  font-size: 58px;
+}
+.font_h2 {
+  font-size: 46px;
 }
 .font_darkblue {
   color: #031b4e;
@@ -47,7 +54,6 @@ body {
 }
 .header_top li a {
   color: #031C4E;
-  font-size: 16px;
   font-weight: bold;
 }
 .header_top .btn_blue {
@@ -70,19 +76,56 @@ body {
   font-size: 20px;
   color: #006AFF;
 }
-
 /* Header_banner */
 .header_banner {
   width: 100%;
   margin-top: 70px;
-  background-color: blue;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_banner p {
+  opacity: 0.8;
+  font-size: 24px;
 }
 .form {
-  width: 60%;
-  height: 200px;
+  width: 100%;
   background-color: white;
   border-radius: 5px;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
+.header_banner .btn_account {
+  background-color: #579AFF;
+  color: #fff;
+}
+.header_banner .btn_google {
+  position: relative;
+  background-color: #fff;
+  color: #707070;
+  font-weight: bold;
+  box-shadow: 1px 1px;
+  margin-top: 5px;
+}
+.google {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 15px;
+}
+.height {
+  height: 40px;
+}
+.header_banner .terms {
+  font-size: 14px;
+  margin-top: 8px;
+}
+.header_banner .terms a {
+  text-decoration: underline;
+  color: #006AFF;
+}
+
 
 /* Main */
 /* Main_logo */
@@ -132,11 +175,34 @@ footer {
 }
 /* Media Queries */
 @media screen and (max-width: 768px) {
+  .header_banner .btn_account {
+    width: 640px;
+  }
+  .header_banner .btn_google {
+    width: 640px;
+  }
+  .form {
+    margin: -20px auto 40px;
+  }
 
 }
 @media screen and (min-width: 768px) {
+  .header_banner .btn_account {
+    width: 340px;
+  }
+  .header_banner .btn_google {
+    width: 340px;
+  }
+
+
 
 }
 @media screen and (min-width: 1200px) {
+  .header_banner .btn_account {
+    width: 430px;
+  }
+  .header_banner .btn_google {
+    width: 430px;
+  }
 
 }
