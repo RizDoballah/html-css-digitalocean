@@ -9,10 +9,10 @@ body {
   font-size: 16px;
 }
 .font_h1 {
-  font-size: 46px;
+  font-size: 40px;
 }
 .font_h2 {
-  font-size: 30px;
+  font-size: 36px;
 }
 .font_h3 {
   font-size: 22px;
@@ -36,6 +36,9 @@ body {
 }
 .bold {
   font-weight: bold;
+}
+.opacity {
+  opacity: 0.9;
 }
 .padding_top_40 {
   padding-top: 40px;
@@ -220,7 +223,7 @@ body {
 }
 /* Feature */
 #feature img {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 #feature a {
@@ -241,16 +244,82 @@ body {
 #service {
   background-color: #0044C3;
 }
+#service ul {
+  list-style: none;
+}
+#service ul li {
+padding: 10px;
+font-size: 14px;
+border-bottom: 1px solid white;
+}
+#service ul li:last-child {
+  border: none;
+}
+#service ul li a {
+  color: #00D5D1;
+}
+#service ul li a:hover {
+  color: #1b2d94;
+  text-decoration: none;
+}
+#service ul li a span {
+  font-size: 10px;
+  padding: 5px;
+  vertical-align: middle;
+}
 /* development */
 #development {
   background-color: #F3F5F9;
 }
+#development .rocker_box {
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+}
+#development .rocker_box:hover {
+  cursor: grab;
+}
+#development p {
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0.6;
+  font-size: 22px;
+}
+#development h5,
+#development h6 {
+  font-size: 16px;
+}
+#development h6 {
+  padding-bottom: 30px;
+}
 #development img {
-  width: 50%;
+  padding-bottom: 20px;
+}
+#development a span {
+  font-size: 10px;
+  vertical-align: middle;
+  padding: 5px;
+}
+#development a:hover {
+  text-decoration: none;
+  color: #29518a;
+}
+#development span {
+  font-size: 40px;
+  font-weight: bold;
+  color: #031b4e;
+
 }
 .ball i {
   font-size: 10px;
   color: #006AFF;
+}
+.ball i:first-child {
+  background-color: #006AFF;
+  border-radius: 50%;
 }
 /* Get_started */
 #get_started {
@@ -262,6 +331,9 @@ footer {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
+  .font_h1 {
+    font-size: 40px;
+  }
   .logo li  {
     width: 13%;
   }
@@ -276,6 +348,10 @@ footer {
 
 }
 @media screen and (min-width: 992px) {
+  .font_h1 {
+    font-size: 62px;
+  }
+
 #deploy .wrapper {
   width: 85%;
   margin: 0 auto;
