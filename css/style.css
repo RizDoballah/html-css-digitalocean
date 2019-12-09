@@ -264,7 +264,7 @@ border-bottom: 1px solid white;
 }
 #service ul li a span {
   font-size: 10px;
-  padding: 5px;
+  padding: 2px;
   vertical-align: middle;
 }
 /* development */
@@ -296,7 +296,8 @@ border-bottom: 1px solid white;
   padding-bottom: 30px;
 }
 #development img {
-  padding-bottom: 20px;
+  width: 100%;
+  padding: 20px 5px;
 }
 #development a span {
   font-size: 10px;
@@ -370,6 +371,54 @@ border-bottom: 1px solid white;
     color: #fff;
     opacity: 1;
   }
+  footer .fish {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #006AFF;
+    background-image: url(../img/fish.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+  }
+  footer .fish .icon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;;
+  }
+  .footer_fixed {
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+  }
+.footer_box {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+}
+  .footer_box::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    transform: translateY(-5%)rotate(45deg);
+  }
 
 /* Media Queries */
 
@@ -393,6 +442,7 @@ border-bottom: 1px solid white;
 @media screen and (min-width: 992px) {
   .font_h1 {
     font-size: 62px;
+
   }
 
 #deploy .wrapper {
@@ -402,6 +452,11 @@ border-bottom: 1px solid white;
 #create .wrapper {
   width: 85%;
   margin: 0 auto;
+}
+.footer_fixed {
+  position: fixed;
+  left: 75%;
+  bottom: 5%;
 }
 
 
