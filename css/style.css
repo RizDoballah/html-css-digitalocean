@@ -247,7 +247,8 @@ body {
 
 /* service */
 #service {
-background-color: #0044C3;
+  background: rgb(0,68,195);
+  background: linear-gradient(90deg, rgba(0,68,195,1) 13%, rgba(0,68,195,1) 49%);
 margin-top: -20px;
 }
 #service ul {
@@ -460,7 +461,6 @@ border-bottom: 1px solid white;
     padding: 5px;
     vertical-align: middle;
   }
-
 }
 @media screen and (min-width: 992px) {
   .font_h1 {
@@ -469,7 +469,6 @@ border-bottom: 1px solid white;
   .logo li  {
     width: calc( (100% / 6) - 6px);
   }
-
   #deploy .wrapper {
   width: 85%;
   margin: 0 auto;
@@ -490,5 +489,4 @@ border-bottom: 1px solid white;
     width: 50%;
     padding: 20px 5px;
   }
-
 }
